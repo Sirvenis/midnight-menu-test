@@ -1,0 +1,823 @@
+{
+  "id": "murder-on-the-midnight-menu",
+  "title": "Murder on the Midnight Menu",
+  "tagline": "At Nocturne, the final course is plated at midnight. Tonight, it serves a corpse.",
+  "theme": {
+    "palette": [
+      "black",
+      "cream",
+      "gold",
+      "deep red"
+    ],
+    "tone": "glamorous fine-dining noir"
+  },
+  "victim": {
+    "id": "valentin-voss",
+    "name": "Chef Valentin Voss",
+    "role": "celebrity chef and owner of Nocturne"
+  },
+  "solution": {
+    "killer": "bianca-brulee",
+    "motive": "stolen-dessert-sale",
+    "opportunity": "dessert-service-plating-access",
+    "supportingClues": [
+      "rewritten-dessert-ticket",
+      "bianca-handwriting-match",
+      "bb-black-book-page",
+      "chefs-portion-note",
+      "mina-saw-bianca",
+      "moonless-torte-theft",
+      "bitter-almond-ganache-trace"
+    ],
+    "fatalMethod": "A measured dose of bitter almond liqueur concentrate hidden in Voss’s special Moonless Torte ganache."
+  },
+  "solutionExplanation": "Bianca Brûlée killed Chef Valentin Voss because he stole The Moonless Torte, planned to sell it for millions, and intended to remove her name from the recipe. She used her dessert-service access to rewrite the final ticket, enter the private plating station, and prepare Voss's separate chef's portion with a fatal dose of bitter almond liqueur concentrate hidden in the ganache. The B.B. black book page proves the theft, while Mina's sighting, the chef's portion note, the rewritten ticket, and the handwriting match complete the opportunity chain.",
+  "openingNarration": [
+    "Nocturne opens at midnight, because Valentin Voss believes dinner should feel like trespass.",
+    "Critics, investors, rivals, staff, and loyal regulars gather beneath black chandeliers while Voss prepares one final revelation: The Midnight Menu.",
+    "His toast is interrupted before he can name the creator of the final dessert. Then the special chef's portion of The Moonless Torte reaches him behind the applause.",
+    "Voss tastes it, smiles once, and collapses beside the gold service bell. The doors are locked. Everyone had motive. Only one person had the final course."
+  ],
+  "imagePlaceholders": {
+    "title": "assets/scenes/title.png",
+    "dining-room": "assets/scenes/dining-room.png",
+    "kitchen": "assets/scenes/kitchen.png",
+    "private-plating": "assets/scenes/private-plating.png",
+    "voss-office": "assets/scenes/voss-office.png",
+    "wine-cellar": "assets/scenes/wine-cellar.png",
+    "back-hallway": "assets/scenes/back-hallway.png",
+    "marcel-pepperidge": "assets/characters/marcel-pepperidge.png",
+    "bianca-brulee": "assets/characters/bianca-brulee.png",
+    "rufus-kale": "assets/characters/rufus-kale.png",
+    "celeste-saffron": "assets/characters/celeste-saffron.png",
+    "gordon-glaze": "assets/characters/gordon-glaze.png",
+    "mina-mise": "assets/characters/mina-mise.png",
+    "dahlia-plate": "assets/characters/dahlia-plate.png",
+    "arthur-spoon": "assets/characters/arthur-spoon.png",
+    "missing-black-recipe-book": "assets/clues/missing-black-recipe-book.png",
+    "voss-interrupted-toast": "assets/clues/voss-interrupted-toast.png",
+    "rewritten-dessert-ticket": "assets/clues/rewritten-dessert-ticket.png",
+    "bianca-handwriting-match": "assets/clues/bianca-handwriting-match.png",
+    "bb-black-book-page": "assets/clues/bb-black-book-page.png",
+    "chefs-portion-note": "assets/clues/chefs-portion-note.png",
+    "mina-saw-bianca": "assets/clues/mina-saw-bianca.png",
+    "dahlia-restored-video": "assets/clues/dahlia-restored-video.png",
+    "moonless-torte-theft": "assets/clues/moonless-torte-theft.png",
+    "million-dollar-dessert-sale": "assets/clues/million-dollar-dessert-sale.png",
+    "rufus-bribery-page": "assets/clues/rufus-bribery-page.png",
+    "celeste-investor-threat": "assets/clues/celeste-investor-threat.png",
+    "gordon-recipe-theft-motive": "assets/clues/gordon-recipe-theft-motive.png",
+    "arthur-coded-ledger": "assets/clues/arthur-coded-ledger.png",
+    "marcel-seating-plan": "assets/clues/marcel-seating-plan.png",
+    "bitter-almond-ganache-trace": "assets/clues/bitter-almond-ganache-trace.png",
+    "cellar-service-key": "assets/clues/cellar-service-key.png",
+    "critic-kitchen-pass": "assets/clues/critic-kitchen-pass.png",
+    "dahlia-edited-clip": "assets/clues/dahlia-edited-clip.png"
+  },
+  "timeline": [
+    "10:45 PM — Guests arrive; Marcel quietly changes seating and sells one last impossible reservation.",
+    "11:15 PM — Voss argues with Rufus, Celeste, and Gordon in separate corners of the dining room.",
+    "11:40 PM — Mina sees Bianca enter the private plating station before dessert service.",
+    "11:50 PM — The dessert ticket is rewritten; Voss's chef's portion is marked separately.",
+    "12:00 AM — Voss begins an interrupted toast about The Midnight Menu.",
+    "12:07 AM — Voss eats the special chef's portion of The Moonless Torte and collapses."
+  ],
+  "suspects": [
+    {
+      "id": "marcel-pepperidge",
+      "name": "Marcel Pepperidge",
+      "role": "Maître d’",
+      "short": "Silk gloves, perfect posture, and panic hidden under hospitality.",
+      "secret": "Sold impossible reservation spots for cash. Voss planned to fire him publicly.",
+      "motive": "Career destruction.",
+      "interview": [
+        {
+          "q": "Opening statement",
+          "a": "I maintain the room. I do not poison it. Voss humiliated people for sport; tonight he simply ran out of victims.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about Voss",
+          "a": "Chef Voss was brilliant, cruel, and allergic to gratitude. He planned to make an example of me during the toast.",
+          "reveals": [
+            "voss-interrupted-toast"
+          ]
+        },
+        {
+          "q": "Ask about your motive",
+          "a": "Yes, he intended to fire me. Publicly. But a fired maître d’ still breathes. A murdered chef ruins every reservation in the book.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your alibi",
+          "a": "I was in the wine cellar calming a collector who disliked his table. Ask anyone who values Bordeaux more than truth.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about The Midnight Menu",
+          "a": "It was Voss's private scripture. He guarded that black book more carefully than the safe.",
+          "reveals": []
+        },
+        {
+          "q": "Confront Marcel with seating plan",
+          "a": "I changed the seating because Voss ordered it. He wanted enemies close enough to watch one another bleed.",
+          "reveals": [
+            "marcel-seating-plan"
+          ],
+          "requires": "marcel-seating-plan"
+        },
+        {
+          "q": "Confront Marcel with the cellar service key",
+          "a": "Every maître d’ knows the quiet doors. That does not mean I crossed into pastry during the final course.",
+          "reveals": [
+            "cellar-service-key"
+          ],
+          "requires": "cellar-service-key"
+        }
+      ]
+    },
+    {
+      "id": "bianca-brulee",
+      "name": "Bianca Brûlée",
+      "role": "Pastry chef",
+      "short": "Calm, exacting, and furious beneath the sugar.",
+      "secret": "Voss stole her dessert, The Moonless Torte.",
+      "motive": "Voss planned to erase her name and sell her recipe.",
+      "interview": [
+        {
+          "q": "Opening statement",
+          "a": "Dessert is precision. Murder is mess. I prefer precision.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about Voss",
+          "a": "He took beautiful things and signed them with his own name. People called it genius because he wore a white jacket.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your motive",
+          "a": "Every chef at Nocturne has lost something to Voss. I am not unique in that.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your alibi",
+          "a": "I was on dessert service. Everyone knows that. Access is not guilt.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about The Midnight Menu",
+          "a": "The black book records ownership. Voss feared honest attribution more than bad reviews.",
+          "reveals": []
+        },
+        {
+          "q": "Confront Bianca with the handwriting match",
+          "a": "Many pastry chefs write neatly. But yes — the ticket resembles mine. You still need to prove what it changed.",
+          "reveals": [
+            "bianca-handwriting-match"
+          ],
+          "requires": "rewritten-dessert-ticket"
+        },
+        {
+          "q": "Confront Bianca with the B.B. page",
+          "a": "B.B. is me. The Moonless Torte was mine before Voss dressed it in black velvet and called it legacy.",
+          "reveals": [
+            "moonless-torte-theft"
+          ],
+          "requires": "bb-black-book-page"
+        }
+      ]
+    },
+    {
+      "id": "rufus-kale",
+      "name": "Rufus Kale",
+      "role": "Food critic",
+      "short": "A velvet voice with a knife behind every adjective.",
+      "secret": "Accepted bribes for reviews.",
+      "motive": "Voss had proof and planned to expose him.",
+      "interview": [
+        {
+          "q": "Opening statement",
+          "a": "I kill restaurants with stars, not toxins.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about Voss",
+          "a": "Voss was a thief with plating tweezers. Unfortunately, he was also useful copy.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your motive",
+          "a": "He had nothing on me that half the industry did not already suspect.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your alibi",
+          "a": "Dining room, table three. I was composing a review cruel enough to outlive him.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about The Midnight Menu",
+          "a": "A myth, supposedly. Recipes, debts, affairs, bribes — all reduced to culinary metaphor.",
+          "reveals": []
+        },
+        {
+          "q": "Confront Rufus with bribery page",
+          "a": "Fine. He had proof I sold praise. That gave me motive, not access to the chef's private dessert.",
+          "reveals": [
+            "rufus-bribery-page"
+          ],
+          "requires": "rufus-bribery-page"
+        },
+        {
+          "q": "Confront Rufus with the kitchen pass",
+          "a": "Voss gave me access for a private preview, not plating rights. I saw the kitchen door, not the final plate.",
+          "reveals": [
+            "critic-kitchen-pass"
+          ],
+          "requires": "critic-kitchen-pass"
+        }
+      ]
+    },
+    {
+      "id": "celeste-saffron",
+      "name": "Celeste Saffron",
+      "role": "Investor",
+      "short": "Gold jewellery, red lipstick, and the calm of someone who has survived audits.",
+      "secret": "Used money from a failed restaurant group she stripped for parts.",
+      "motive": "Voss planned to remove her and expose her finances.",
+      "interview": [
+        {
+          "q": "Opening statement",
+          "a": "I invested in Nocturne. I did not invest in scandal.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about Voss",
+          "a": "Valentin mistook ownership for loyalty. Once he had money, he wanted witnesses gone.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your motive",
+          "a": "He threatened to remove me. Investors are removed by contracts, not corpses.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your alibi",
+          "a": "Wine cellar, briefly, then the dining room. Marcel can confirm part of it if he is feeling brave.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about The Midnight Menu",
+          "a": "It was leverage. Voss wrote finances as recipes and called blackmail cuisine.",
+          "reveals": []
+        },
+        {
+          "q": "Confront Celeste with investor threat",
+          "a": "He planned to expose the old restaurant group. Yes. But killing him during my own opening night would be an ugly return on investment.",
+          "reveals": [
+            "celeste-investor-threat"
+          ],
+          "requires": "celeste-investor-threat"
+        }
+      ]
+    },
+    {
+      "id": "gordon-glaze",
+      "name": "Gordon Glaze",
+      "role": "Rival celebrity chef",
+      "short": "A wounded ego in a tailored jacket.",
+      "secret": "Helped create the dish that made Voss famous.",
+      "motive": "Voss stole his work and ruined his restaurant.",
+      "interview": [
+        {
+          "q": "Opening statement",
+          "a": "If I wanted Voss dead, I would have challenged him to cook honestly.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about Voss",
+          "a": "He built an empire from other people's hands. Mine included.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your motive",
+          "a": "He stole my dish and my future. I wanted him exposed, not martyred.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your alibi",
+          "a": "Wine cellar. I needed distance before I threw a glass at him in front of critics.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about The Midnight Menu",
+          "a": "If the black book exists, it contains more stolen work than a bad cookbook shelf.",
+          "reveals": []
+        },
+        {
+          "q": "Confront Gordon with recipe theft",
+          "a": "Yes, Voss stole from me. But tonight's dessert was not mine. Ask the pastry station.",
+          "reveals": [
+            "gordon-recipe-theft-motive"
+          ],
+          "requires": "gordon-recipe-theft-motive"
+        }
+      ]
+    },
+    {
+      "id": "mina-mise",
+      "name": "Mina Mise",
+      "role": "Junior sous-chef",
+      "short": "Young, sharp-eyed, and frightened by how much she noticed.",
+      "secret": "Copied pages from The Midnight Menu for weeks.",
+      "motive": "Voss ruined her father’s career.",
+      "interview": [
+        {
+          "q": "Opening statement",
+          "a": "I only wanted the truth copied somewhere he could not burn it.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about Voss",
+          "a": "He destroyed my father's restaurant with a review he bought and a rumour he served cold.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your motive",
+          "a": "I hated him. I did not touch his plate.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your alibi",
+          "a": "Kitchen pass until dessert. I saw Bianca go behind the velvet curtain before the final course.",
+          "reveals": [
+            "mina-saw-bianca"
+          ]
+        },
+        {
+          "q": "Ask about The Midnight Menu",
+          "a": "I copied pages because the book was evidence. Recipes, ledgers, threats — all hidden as tasting notes.",
+          "reveals": []
+        },
+        {
+          "q": "Confront Mina with the missing black book",
+          "a": "I copied pages, not the whole book. Someone took the original after Voss fell.",
+          "reveals": [
+            "missing-black-recipe-book"
+          ],
+          "requires": "missing-black-recipe-book"
+        }
+      ]
+    },
+    {
+      "id": "dahlia-plate",
+      "name": "Dahlia Plate",
+      "role": "Food influencer",
+      "short": "A camera smile, trembling hands, and too many drafts saved offline.",
+      "secret": "Her fame was manufactured by Voss with scripted reviews.",
+      "motive": "Voss planned to leak proof her career was fake.",
+      "interview": [
+        {
+          "q": "Opening statement",
+          "a": "My followers saw the toast cut off. They did not see murder. I wish my phone had kept recording.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about Voss",
+          "a": "He made me famous, then owned every word I said about food.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your motive",
+          "a": "He threatened to leak scripts. I would be finished, but prison is worse than cancellation.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your alibi",
+          "a": "Back hallway, fixing a livestream glitch. The restored clip proves where I was.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about The Midnight Menu",
+          "a": "Everyone whispered about it. Voss treated secrets like ingredients.",
+          "reveals": []
+        },
+        {
+          "q": "Confront Dahlia with restored video",
+          "a": "The clip shows Bianca passing the plating curtain. I did not understand it until now.",
+          "reveals": [
+            "dahlia-restored-video"
+          ],
+          "requires": "dahlia-restored-video"
+        },
+        {
+          "q": "Confront Dahlia with the edited timestamp",
+          "a": "I cut the clip because Voss sounded cruel in it. I did not realise the missing seconds made me look like the murderer.",
+          "reveals": [
+            "dahlia-edited-clip"
+          ],
+          "requires": "dahlia-edited-clip"
+        }
+      ]
+    },
+    {
+      "id": "arthur-spoon",
+      "name": "Arthur Spoon",
+      "role": "Eccentric old regular",
+      "short": "An old man with soup opinions and investigator's eyes.",
+      "secret": "Retired fraud investigator investigating Voss.",
+      "motive": "Voss discovered him and threatened to frame him.",
+      "interview": [
+        {
+          "q": "Opening statement",
+          "a": "Never trust a restaurant that serves foam before soup.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about Voss",
+          "a": "A fraud with a tasting menu. I came to prove it, not kill it.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your motive",
+          "a": "He discovered my investigation and threatened to frame me with his own ledger. Tiresome, but not fatal.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about your alibi",
+          "a": "Dining room. I was watching the service pattern. The murderer moved with permission, not stealth.",
+          "reveals": []
+        },
+        {
+          "q": "Ask about The Midnight Menu",
+          "a": "The black recipe book is a coded ledger. Courses are crimes; ingredients are names.",
+          "reveals": [
+            "arthur-coded-ledger"
+          ]
+        },
+        {
+          "q": "Confront Arthur with the coded ledger",
+          "a": "The book could ruin half this room. That is why its disappearance matters more than the body.",
+          "reveals": [
+            "arthur-coded-ledger"
+          ],
+          "requires": "arthur-coded-ledger"
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "dining-room",
+      "name": "Dining Room",
+      "purpose": "Opening scene, guest statements, missing recipe book clue.",
+      "description": "Black marble tables, cream linen, gold cutlery, and critics pretending not to panic.",
+      "clues": [
+        "missing-black-recipe-book",
+        "voss-interrupted-toast"
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "purpose": "Staff gossip, service ticket clue, Bianca/Mina related clues.",
+      "description": "A hot line of copper pans, sharp knives, and staff who suddenly remember nothing clearly.",
+      "clues": [
+        "rewritten-dessert-ticket",
+        "critic-kitchen-pass",
+        "mina-saw-bianca"
+      ]
+    },
+    {
+      "id": "private-plating",
+      "name": "Private Plating Station",
+      "purpose": "Chef's portion clue, Bianca opportunity clue.",
+      "description": "A velvet-curtained station where the final course was finished away from guest eyes.",
+      "clues": [
+        "chefs-portion-note",
+        "bitter-almond-ganache-trace"
+      ]
+    },
+    {
+      "id": "voss-office",
+      "name": "Voss’s Office",
+      "purpose": "Coded ledger clue, investor deal clue, Arthur investigation clue.",
+      "description": "A lacquered office above the kitchen, smelling of ink, truffle oil, and blackmail.",
+      "clues": [
+        "bb-black-book-page",
+        "million-dollar-dessert-sale",
+        "rufus-bribery-page",
+        "celeste-investor-threat",
+        "arthur-coded-ledger"
+      ]
+    },
+    {
+      "id": "wine-cellar",
+      "name": "Wine Cellar",
+      "purpose": "Red herring location for Marcel, Celeste, and Gordon.",
+      "description": "Dusty bottles, old money, and three separate alibis too convenient to be clean.",
+      "clues": [
+        "gordon-recipe-theft-motive",
+        "marcel-seating-plan",
+        "cellar-service-key"
+      ]
+    },
+    {
+      "id": "back-hallway",
+      "name": "Back Hallway",
+      "purpose": "Movement/timeline clue, Dahlia video clue.",
+      "description": "A narrow staff corridor where camera glitches and footsteps become evidence.",
+      "clues": [
+        "dahlia-edited-clip",
+        "dahlia-restored-video"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "missing-black-recipe-book",
+      "title": "Missing black recipe book",
+      "text": "Voss's black recipe book vanished after dessert. It may contain recipes and coded crimes.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "voss-interrupted-toast",
+      "title": "Voss’s interrupted toast",
+      "text": "Voss began a toast about authorship, legacy, and The Midnight Menu before someone cut the moment short.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "rewritten-dessert-ticket",
+      "title": "Rewritten dessert ticket",
+      "text": "The final dessert ticket was rewritten after service began, changing the handling of Voss's chef's portion.",
+      "category": "core"
+    },
+    {
+      "id": "bianca-handwriting-match",
+      "title": "Pastry-station handwriting match",
+      "text": "The rewritten ticket matches the precise decorative hand used on pastry-station labels.",
+      "category": "core"
+    },
+    {
+      "id": "bb-black-book-page",
+      "title": "B.B. black book page",
+      "text": "A torn black book page reads: 'Original author: B.B. Remove name.' It refers to The Moonless Torte.",
+      "category": "core"
+    },
+    {
+      "id": "chefs-portion-note",
+      "title": "Chef’s portion note",
+      "text": "Voss received a special chef's portion, plated separately from the guests' desserts.",
+      "category": "core"
+    },
+    {
+      "id": "mina-saw-bianca",
+      "title": "Mina saw Bianca enter plating station",
+      "text": "Mina saw Bianca enter the private plating station before the final course.",
+      "category": "core"
+    },
+    {
+      "id": "dahlia-restored-video",
+      "title": "Dahlia’s restored video clip",
+      "text": "Dahlia’s corrupted hallway clip shows movement near the plating curtain before dessert. It may have been edited before recovery.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "moonless-torte-theft",
+      "title": "Moonless Torte authorship dispute",
+      "text": "Draft notes show The Moonless Torte existed before Voss announced it as his own final-course masterpiece.",
+      "category": "core"
+    },
+    {
+      "id": "million-dollar-dessert-sale",
+      "title": "Million-dollar dessert sale",
+      "text": "A draft deal shows Voss planned to sell The Moonless Torte concept for millions under his own name.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "rufus-bribery-page",
+      "title": "Rufus bribery page",
+      "text": "A coded black-book page links Rufus to paid reviews.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "celeste-investor-threat",
+      "title": "Celeste investor threat",
+      "text": "Voss prepared documents to remove Celeste and expose her stripped restaurant-group finances.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "gordon-recipe-theft-motive",
+      "title": "Gordon recipe theft motive",
+      "text": "Old notes show Gordon helped create the dish that made Voss famous before Voss ruined him.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "arthur-coded-ledger",
+      "title": "Arthur discovered the book was a coded ledger",
+      "text": "Arthur identified the black recipe book as a ledger of bribes, thefts, threats, and fraud.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "marcel-seating-plan",
+      "title": "Marcel changed the seating plan",
+      "text": "Marcel changed the opening-night seating plan and sold impossible reservation spots for cash.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "bitter-almond-ganache-trace",
+      "title": "Bitter almond ganache trace",
+      "text": "A scrap from Voss’s private plate smells sharply of bitter almond liqueur concentrate, hidden under dark chocolate ganache.",
+      "category": "core"
+    },
+    {
+      "id": "cellar-service-key",
+      "title": "Cellar service key",
+      "text": "A service key found near the wine cellar could open the back hallway door, giving Marcel, Celeste, or Gordon a suspicious movement route.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "critic-kitchen-pass",
+      "title": "Critic kitchen pass",
+      "text": "A one-night kitchen pass issued to Rufus suggests he briefly had permission to approach the pass, though not the private plating station.",
+      "category": "motive/red herring"
+    },
+    {
+      "id": "dahlia-edited-clip",
+      "title": "Edited video timestamp",
+      "text": "Dahlia’s restored clip has a timestamp jump, making her look suspicious before the full recovery shows Bianca near plating.",
+      "category": "motive/red herring"
+    }
+  ],
+  "accusationOptions": {
+    "killer": [
+      {
+        "id": "marcel-pepperidge",
+        "label": "Marcel Pepperidge"
+      },
+      {
+        "id": "bianca-brulee",
+        "label": "Bianca Brûlée"
+      },
+      {
+        "id": "rufus-kale",
+        "label": "Rufus Kale"
+      },
+      {
+        "id": "celeste-saffron",
+        "label": "Celeste Saffron"
+      },
+      {
+        "id": "gordon-glaze",
+        "label": "Gordon Glaze"
+      },
+      {
+        "id": "mina-mise",
+        "label": "Mina Mise"
+      },
+      {
+        "id": "dahlia-plate",
+        "label": "Dahlia Plate"
+      },
+      {
+        "id": "arthur-spoon",
+        "label": "Arthur Spoon"
+      }
+    ],
+    "motive": [
+      {
+        "id": "stolen-dessert-sale",
+        "label": "Voss stole The Moonless Torte and planned to sell it while erasing Bianca's name."
+      },
+      {
+        "id": "career-destruction",
+        "label": "Voss planned to publicly fire Marcel."
+      },
+      {
+        "id": "bribery-exposure",
+        "label": "Voss planned to expose Rufus for paid reviews."
+      },
+      {
+        "id": "investor-exposure",
+        "label": "Voss planned to expose Celeste's finances."
+      },
+      {
+        "id": "rival-recipe-theft",
+        "label": "Voss stole Gordon's work and ruined his restaurant."
+      },
+      {
+        "id": "family-revenge",
+        "label": "Voss ruined Mina's father's career."
+      },
+      {
+        "id": "fake-fame-leak",
+        "label": "Voss planned to expose Dahlia's fake fame."
+      },
+      {
+        "id": "fraud-frame",
+        "label": "Voss threatened to frame Arthur."
+      }
+    ],
+    "opportunity": [
+      {
+        "id": "dessert-service-plating-access",
+        "label": "Bianca had dessert-service access and entered the private plating station before the final course."
+      },
+      {
+        "id": "wine-cellar-window",
+        "label": "Someone slipped out from the wine cellar during the confusion."
+      },
+      {
+        "id": "dining-room-toast",
+        "label": "The poison was added publicly during Voss's toast."
+      },
+      {
+        "id": "office-ledger-trap",
+        "label": "The black book triggered a trap in Voss's office."
+      }
+    ],
+    "supportingClues": [
+      {
+        "id": "missing-black-recipe-book",
+        "label": "Missing black recipe book"
+      },
+      {
+        "id": "voss-interrupted-toast",
+        "label": "Voss’s interrupted toast"
+      },
+      {
+        "id": "rewritten-dessert-ticket",
+        "label": "Rewritten dessert ticket"
+      },
+      {
+        "id": "bianca-handwriting-match",
+        "label": "Pastry-station handwriting match"
+      },
+      {
+        "id": "bb-black-book-page",
+        "label": "B.B. black book page"
+      },
+      {
+        "id": "chefs-portion-note",
+        "label": "Chef’s portion note"
+      },
+      {
+        "id": "mina-saw-bianca",
+        "label": "Mina saw Bianca enter plating station"
+      },
+      {
+        "id": "dahlia-restored-video",
+        "label": "Dahlia’s restored video clip"
+      },
+      {
+        "id": "moonless-torte-theft",
+        "label": "Moonless Torte authorship dispute"
+      },
+      {
+        "id": "million-dollar-dessert-sale",
+        "label": "Million-dollar dessert sale"
+      },
+      {
+        "id": "rufus-bribery-page",
+        "label": "Rufus bribery page"
+      },
+      {
+        "id": "celeste-investor-threat",
+        "label": "Celeste investor threat"
+      },
+      {
+        "id": "gordon-recipe-theft-motive",
+        "label": "Gordon recipe theft motive"
+      },
+      {
+        "id": "arthur-coded-ledger",
+        "label": "Arthur discovered the book was a coded ledger"
+      },
+      {
+        "id": "marcel-seating-plan",
+        "label": "Marcel changed the seating plan"
+      },
+      {
+        "id": "bitter-almond-ganache-trace",
+        "label": "Bitter almond ganache trace"
+      },
+      {
+        "id": "cellar-service-key",
+        "label": "Cellar service key"
+      },
+      {
+        "id": "critic-kitchen-pass",
+        "label": "Critic kitchen pass"
+      },
+      {
+        "id": "dahlia-edited-clip",
+        "label": "Edited video timestamp"
+      }
+    ]
+  },
+  "expansionNotes": [
+    "Add generated art by replacing placeholder paths in imagePlaceholders.",
+    "Add more interview depth by appending question objects to each suspect's interview array.",
+    "Add multi-act pacing by adding round/stage fields to clues and locations."
+  ]
+}
